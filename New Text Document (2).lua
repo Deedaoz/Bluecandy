@@ -136,7 +136,7 @@ end
 uis.InputBegan:Connect(function(key,gp)
 	if gp then return end
 
-	if key.KeyCode == Enum.KeyCode.RightShift then
+	if key.KeyCode == Enum.KeyCode.RightAlt then
 		lib:Toggle()
 	end
 end)
